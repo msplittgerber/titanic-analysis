@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib as plt
 
-df = pd.read_csv("titanic.csv")
+df = pd.read_csv("titanic.csv", sep=";")
 print(df.head())
 print(df.describe())
 
